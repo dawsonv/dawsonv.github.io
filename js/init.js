@@ -108,15 +108,15 @@
 						side: 'top',
 						width: '6em'
 					}
-
+					
 			}
 		}
 	});
 
 	$(function() {
-		
-		// jQuery ready stuff.
-		
+		$(window).load(function() {
+			$(".se-pre-con").fadeOut("slow");;
+		});
 	});
 
 })(jQuery);
