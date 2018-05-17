@@ -52,6 +52,8 @@ collections:
     title: Blog # Needed for Siteleaf
     output: true
     description: "A blog for what I'm up to and the stuff I'm interested in." # The post list page content
+    feature_text: |
+      Loading Creative Title (This could take a while...)
     feature_image: /assets/images/banner.jpg
 
 # 6. Jekyll collections settings
