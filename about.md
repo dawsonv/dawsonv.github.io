@@ -1,111 +1,14 @@
 ---
-title: About
-feature_text: |
-  A demo of Markdown and HTML includes
-feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "A demo of Markdown and HTML includes"
-aside: true
+title: About Me
+feature_image: /assets/images/banner.jpg
 ---
 
-# Heading 1
+This page is designed to tell you a little bit more about myself.
 
-## Heading 2
+The social forces that shape human life fascinate me, from the structure of cities to the nature of poverty. I love the structure of social phenomenon. But I also believe that meaningful analysis has to be rooted in my role as a citizen of my community, my country, and the world.
 
-### Heading 3
+{% include figure.html image="/assets/images/me_portrait.jpg" width="900" height="1800" %}
 
-#### Heading 4
+For the past few years, I've been focused on refugee resettlement and education policy. During my gap year in Atlanta, I served as the Research Intern at the Global Village Project, a school for refugee girls in Decatur, Georgia. Whether working in classrooms or writing memos, I hope to shed light a lost generation of students caught in conflict.
 
-##### Heading 5
-
-###### Heading 6
-
-<small>A small element</small>
-
-[A link](https://david.darn.es "A link")
-
-Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
-
-Duis aute irure dolor in [A link](https://david.darn.es "A link") reprehenderit in voluptate velit esse cillum **bold text** dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt _italicised text_ in culpa qui officia deserunt mollit anim id `some code` est laborum.
-
-* An item
-* An item
-* An item
-* An item
-* An item
-
-1. Item one
-2. Item two
-3. Item three
-4. Item four
-5. Item five
-
-> A simple blockquote
-
-Some HTML...
-
-``` html
-<blockquote cite="http://www.imdb.com/title/tt0284978/quotes/qt1375101">
-  <p>You planning a vacation, Mr. Sullivan?</p>
-  <footer>
-    <a href="http://www.imdb.com/title/tt0284978/quotes/qt1375101">Sunways Security Guard</a>
-  </footer>
-</blockquote>
-```
-
-...CSS...
-
-``` css
-blockquote {
-  text-align: center;
-  font-weight: bold;
-}
-blockquote footer {
-  font-size: .8rem;
-}
-```
-
-...and JavaScript
-
-``` js
-const blockquote = document.querySelector("blockquote")
-const bolden = (keyString, string) =>
-  string.replace(new RegExp(keyString, 'g'), '<strong>'+keyString+'</strong>')
-
-blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
-```
-
-`Single line of code`
-
-## HTML Includes
-
-### Contact form
-
-{% include site-form.html %}
-
-### Demo map embed
-
-{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" title="Coffee shop map" %}
-
-### Button include
-
-{% include button.html text="A button" link="https://david.darn.es" %}
-
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}
-
-### Icon include
-
-{% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
-
-### Video include
-
-{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
-
-### Image includes
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" position="left" caption="Center aligned image" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
+One of the ways I've tried to do that is with research. Until now, most of the research I've done has been empirical in nature. I won first place in the economics category of the MIT Inspire research competition in 2016 for my research on forced displacement and education. I was also a 2017 Intel ISEF finalist for my research on minimum wage and educational achievement.

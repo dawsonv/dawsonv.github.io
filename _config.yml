@@ -44,7 +44,7 @@ sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: America/New_York # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
@@ -84,9 +84,6 @@ navigation_header:
   Projects: /projects/
   Blog: /blog/
   Search: /search/
-
-navigation_footer:
-  Base Web Design by David Darnes: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DawsonVerley
