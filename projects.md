@@ -1,6 +1,9 @@
 ---
 title: Projects
 layout: projects
-excerpt: "Project Index"
-aside: true
+excerpt: "Projects"
 ---
+
+Agent-Based Modeling of 
+
+Economics and Education
