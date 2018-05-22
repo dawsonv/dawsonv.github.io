@@ -4,6 +4,8 @@ layout: projects
 excerpt: "Projects"
 ---
 
-Agent-Based Modeling of 
+[Modeling Terrorism]({{ site.baseurl }}{% link _projects/terrorism.html %})
+
+Geometric Sculptures
 
 Economics and Education

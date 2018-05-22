@@ -15,4 +15,6 @@ In high school, I pursued that interest through empirical research. I won first 
 
 During my gap year in Atlanta, I served as the Research Intern at the Global Village Project, a school for refugee girls in Decatur, Georgia. Whether working in classrooms or writing memos, I hope to shine a light on a lost generation of students caught in conflict.
 
-These days, 
+{% include figure.html image="/assets/images/me_wide.jpg" width="900" height="1800" %}
+
+These days, I'm doing a lot of research, which you can read more about on my "projects" page. I'm also continuing to studying math, economics, and sociology. To keep up with me as I'm working on everything described here, check out my blog. I like to think and write widely, so keep up with the stuff you're interested in by following those categories. And feel free to reach out! 
