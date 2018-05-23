@@ -4,7 +4,7 @@ layout: projects
 excerpt: "Projects"
 ---
 
-[Modeling Terrorism]({{ site.baseurl }}{% link _projects/terrorism.html %})
+[Modeling Terrorism]({% link project-pages/terrorism.md %})
 
 Geometric Sculptures
 
