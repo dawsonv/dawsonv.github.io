@@ -2,6 +2,8 @@
 title: Dawson's Site
 feature_image: /assets/images/banner.jpg
 excerpt: "Dawson is a student, researcher, reader, and social commentator. This website serves as a repository for almost everything he does."
+description: "Dawson is a student, researcher, reader, and social commentator. This website serves as a repository for almost everything he does."
+author: Dawson Verley
 ---
 
 Welcome! My name is Dawson. I'm a student, researcher, innovator, and social commentator. This website serves as a repository for almost everything I do. Read more about my research projects, check out my blog, or get in touch!

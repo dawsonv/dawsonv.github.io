@@ -1,6 +1,9 @@
 ---
 title: About Me
 feature_image: /assets/images/banner.jpg
+excerpt: "This page is designed to tell you a little bit more about me."
+description: "Dawson's "about me" page."
+author: Dawson Verley
 ---
 
 This page is designed to tell you a little bit more about me.
@@ -17,4 +20,4 @@ During my gap year in Atlanta, I served as the Research Intern at the Global Vil
 
 {% include figure.html image="/assets/images/me_wide.jpg" width="900" height="1800" %}
 
-These days, I'm doing a lot of research, which you can read more about on my "projects" page. I'm also continuing to studying math, economics, and sociology. To keep up with me as I'm working on everything described here, check out my blog. I like to think and write widely, so keep up with the stuff you're interested in by following those categories. And feel free to reach out! 
+These days, I'm doing a lot of research, which you can read more about on my "projects" page. I'm also continuing to studying math, economics, and sociology. To keep up with me as I'm working on everything described here, check out my blog. I like to think and write widely, so keep up with the stuff you're interested in by following those categories. And feel free to reach out!
