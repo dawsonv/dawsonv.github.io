@@ -1,6 +1,6 @@
 ---
 title: Dawson's Site
-feature_image: /assets/images/banner.jpg
+feature_image: 
 excerpt: ""
 description: ""
 author: Dawson Verley

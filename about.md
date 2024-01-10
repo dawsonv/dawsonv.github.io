@@ -1,6 +1,6 @@
 ---
 title: About Me
-feature_image: /assets/images/banner.jpg
+feature_image: 
 excerpt: "This page is designed to tell you a little bit more about me."
 description: "Dawson's "about me" page."
 author: Dawson Verley
