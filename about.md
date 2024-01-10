@@ -6,18 +6,8 @@ description: "Dawson's "about me" page."
 author: Dawson Verley
 ---
 
-This page is designed to tell you a little bit more about me.
+This page is designed to tell you a bit more about me. Soon, I'll have more information on current projects, blog posts, and more! For now, here's a short bio. I graduated from Stanford in 2023 with a B.A.H. in political science. I'm interested in quantitative social science research. I'm especially interested in applications of statistical machine learning.
 
-The social forces that shape human life fascinate me, from the structure of cities to the nature of poverty. I love the structure of social phenomenon. But I also believe that meaningful analysis has to be rooted in my role as a citizen of my community, my country, and the world.
+I have experience in public policy. I've also worked full-time and as an independent contractor on lots of data-driven research projects. If you want to work together, or you want to hire me, please reach out! 
 
-{% include figure.html image="/assets/images/me_portrait.jpg" width="900" height="1800" %}
 
-For the past few years, I've been focused on refugee resettlement and education policy. Through a state department scholarship, I had the honor of spending six weeks in Jordan in the summer of 2015, an experience which catalyzed my interest in refugee issues, particularly refugee education.
-
-In high school, I pursued that interest through empirical research. I won first place in the economics category of the MIT Inspire research competition in 2016 for my work on the impacts of refugees on native students. I was also a 2017 Intel ISEF finalist for my research on minimum wages and educational achievement in Canada.
-
-During my gap year in Atlanta, I served as the Research Intern at the Global Village Project, a school for refugee girls in Decatur, Georgia. Whether working in classrooms or writing memos, I hope to shine a light on a lost generation of students caught in conflict.
-
-{% include figure.html image="/assets/images/me_wide.jpg" width="900" height="1800" %}
-
-These days, I'm doing a lot of research, which you can read more about on my "projects" page. I'm also continuing to studying math, economics, and sociology. To keep up with me as I'm working on everything described here, check out my blog. I like to think and write widely, so keep up with the stuff you're interested in by following those categories. And feel free to reach out!
