@@ -1,8 +1,5 @@
 ---
 title: Dawson's Site
-feature_image: 
-excerpt: ""
-description: ""
 author: Dawson Verley
 ---
 
