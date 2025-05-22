@@ -3,8 +3,13 @@ layout: default
 title: Dawson's Site
 ---
 
-# <span style="color:purple">Dawson Verley</span>
+# <span style="color:blue">Dawson Verley</span>
 
-Hi! My name is Dawson. I’m interested in statistics, machine learning, public policy, and quantitative social science research. Recently, I’ve been particularly focused on combinatorial optimization and natural language processing. If you’re interested in collaborating, or if you want to hire me as an independent contractor, please reach out!
+Hi! My name is Dawson. I'm a second-year Master's Student in the Energy and Resources Group (ERG) at UC Berkeley. I’m interested in statistics, machine learning, public policy, and quantitative social science research. 
+
+
+
+
+
 
 
