@@ -5,9 +5,16 @@ title: Dawson's Site
 
 # <span style="color:blue">Dawson Verley</span>
 
-[**Home**](./index.html) - [**Projects**](./projects.html) - [**CV**](./assets/cv.pdf)
+[**Home**](./index.html) - [**About**](./about.html) - [**Projects**](./projects.html) - [**CV**](./assets/cv.pdf) - [**Misc**](./misc.html)
 
 ## <span style="color:blue">Projects</span>
+
+Here are a few projects I'm working on:
+
+- **ML for Entity Resolution:** Databases often contain multiple records that represent the same entity. In real-world applications, these records may not be linked by a unique identifier. In energy systems research, for instance, a single powerplant may be identified by name, address and operator in multiple EIA reports. Reliably merging these records to identify a single entity is essential for many modeling tasks. With collaborators at Stanford, I'm developing machine learning techniques for fast, large-scale entity resolution. 
+
+- **Uncertainty Quantification for Modern Power Systems:** Power system operators rely on estimates of uncertainty to inform operational decisions. In the Western Energy Imbalance Market, for instance, net load uncertainty intervals are used to determine flexible ramping requirements for each balancing area in the market. At the same time, uncertainty quantification is enjoying a renaissance in the statistical machine learning community, under the name "conformal prediction". In ongoing work, I'm trying to understand how conformal prediction can support decision-making in energy systems, and also how conformal prediction compares to the simple heuristics currently used by energy systems engineers. 
+
 
 Here are a few projects that I'd like to pursue someday:
 
