@@ -1,0 +1,43 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="posts-list">
+  {% for post in paginator.posts %}
+    <div class="post-item" style="margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+      <h2 style="margin-bottom: 5px;">
+        <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #0366d6;">{{ post.title }}</a>
+      </h2>
+      <div class="post-meta" style="color: #6a737d; font-size: 0.9em; margin-bottom: 15px;">
+        {{ post.date | date: "%B %d, %Y" }}
+      </div>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 50 }}
+      </div>
+      <div style="margin-top: 10px;">
+        <a href="{{ post.url | relative_url }}" style="font-weight: 500; font-size: 0.9em;">Read more →</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination" style="margin-top: 30px; text-align: center;">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="previous" style="margin-right: 15px;">&laquo; Previous</a>
+  {% else %}
+    <span class="previous" style="margin-right: 15px; color: #999;">&laquo; Previous</span>
+  {% endif %}
+
+  <span class="page_number" style="font-weight: 600;">
+    Page {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="next" style="margin-left: 15px;">Next &raquo;</a>
+  {% else %}
+    <span class="next" style="margin-left: 15px; color: #999;">Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}

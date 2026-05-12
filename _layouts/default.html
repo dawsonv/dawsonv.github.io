@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      .markdown-body {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <header>
+        <div style="font-size: 1.2em; margin-bottom: 10px;">
+          <a href="{{ "/" | relative_url }}" style="color: #57606a; text-decoration: none; font-weight: 600;">{{ site.title }}</a>
+        </div>
+        <nav style="margin-bottom: 30px; border-bottom: 1px solid #eaecef; padding-bottom: 10px;">
+          <a href="{{ "/" | relative_url }}" style="margin-right: 20px; font-weight: 500;">Home</a>
+          <a href="{{ "/about.html" | relative_url }}" style="margin-right: 20px; font-weight: 500;">About</a>
+          <!-- <a href="{{ "/projects.html" | relative_url }}" style="margin-right: 20px; font-weight: 500;">Projects</a> -->
+          <!-- <a href="{{ "/blog/" | relative_url }}" style="margin-right: 20px; font-weight: 500;">Blog</a> -->
+          <a href="https://github.com/dawsonv" style="margin-right: 20px; font-weight: 500;">GitHub <i class="fa fa-external-link"></i></a>
+          <a href="https://www.linkedin.com/in/dawson-verley-510618248/" style="margin-right: 20px; font-weight: 500;">LinkedIn <i class="fa fa-external-link"></i></a>
+        </nav>
+      </header>
+
+      {{ content }}
+
+      {% if site.github.private != true and site.github.license %}
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. {% github_edit_link "Improve this page" %}.
+      </div>
+      {% endif %}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
