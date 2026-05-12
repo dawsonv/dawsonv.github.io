@@ -4,10 +4,14 @@ title: Home
 ---
 
 <style>
+  :root {
+    --intro-vertical-align: center; /* Options: start, center, end */
+  }
+
   .intro-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: var(--intro-vertical-align);
     text-align: center;
     gap: 20px;
     margin-top: 20px;
@@ -15,7 +19,7 @@ title: Home
 
   .profile-pic {
     width: 100%;
-    max-width: 200px; /* Reduced to be much smaller */
+    max-width: 200px; 
     height: auto;
     border-radius: 8px;
   }
@@ -28,10 +32,10 @@ title: Home
   @media (min-width: 768px) {
     .intro-container {
       display: grid;
-      grid-template-columns: 1fr 1fr; /* 50/50 split on desktop */
-      align-items: center;
-      gap: 40px;
-      margin-top: 60px;
+      grid-template-columns: 1.2fr 1fr; /* Text gets slightly more room */
+      align-items: var(--intro-vertical-align);
+      gap: 80px; 
+      margin-top: 20px;
       text-align: left;
     }
 
@@ -47,10 +51,10 @@ title: Home
 
 <div class="intro-container">
   <div class="intro-text">
-    <div style="font-size: 2.5em; font-weight: bold; margin-bottom: 32px;">Hey, I'm Dawson!</div>
+    <div style="font-size: 1.4em; margin-bottom: 16px;">
+      <strong>Hey, I'm Dawson!</strong> I'm a software developer focused on energy systems, data science, and policy. I use machine learning to accelerate decarbonization and the global energy transition.
 
-    I'm a student and researcher at UC Berkeley focused on energy systems, data science, and policy. I'm passionate about using computational tools to accelerate decarbonization and the global energy transition.
-    {:.lead}
+    </div>
   </div>
 
   <img src="/assets/dawson.jpg" alt="A picture of me in Oakland, where I live" class="profile-pic"/>
