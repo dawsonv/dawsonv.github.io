@@ -65,7 +65,7 @@ title: Home
 
 <div class="intro-container">
   <div class="intro-text">
-    <div style="font-size: 1.25em; margin-bottom: 16px;">
+    <div style="font-size: 1.2em; margin-bottom: 16px;">
       <strong>Hey, I'm Dawson!</strong> I'm a software developer focused on energy systems, data science, and policy. I use machine learning to accelerate decarbonization and the global energy transition.
     </div>
   </div>
