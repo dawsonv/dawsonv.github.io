@@ -66,7 +66,11 @@ title: Home
 <div class="intro-container">
   <div class="intro-text">
     <div style="font-size: 1.2em; margin-bottom: 16px;">
-      <strong>Hey, I'm Dawson!</strong> I'm a software developer focused on energy systems, data science, and policy. I use machine learning to accelerate decarbonization and the global energy transition.
+      <strong>Hey, I'm Dawson!</strong> I work on machine learning and energy system modeling. I also have a background in dynamics and control. I’m particularly excited by projects that involve some combination of physics, economics, computing, and applied math. 
+      <br><br>
+      Previously, I worked as a research data scientist at Stanford University. I’ve also worked in state and federal government, largely on issues related to energy policy.  
+      <br><br>
+      You can reach me by email at verley@berkeley.edu. 
     </div>
   </div>
 
